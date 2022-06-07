@@ -18,7 +18,7 @@ fn main() {
             Ok(num) => num,
             Err(_) => 
             {
-                println!("Please again intput number!");
+                println!("Please re-enter the number!");
                 continue;
             },
         };
